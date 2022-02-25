@@ -1,0 +1,89 @@
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+.Tieude{
+    background-color:aqua;
+    text-align: center;
+}
+.content{
+    width: 100%;
+    margin: 0 auto;
+}
+.menu{
+    background-color:orangered;
+    line-height:  35px;
+}
+.menu>ul{
+    list-style-type: none;
+}
+.menu>ul>li{
+    display: inline-block;
+    position: relative;
+    width:100px;
+}
+.menu>ul>li>a{
+    color:snow;
+    text-decoration: none;
+}
+.menu>ul>li>ul{
+    display: none;
+    position: absolute;
+    list-style-type: none;
+    padding-left: 0px;
+}
+.menu>ul>li>ul>li{
+    width: 100px;
+    border: 1px solid goldenrod;
+}
+.menu>ul>li>ul>li:hover{
+    background-color:orangered;
+}
+.menu>ul>li>ul>li:hover>a{
+    color:snow;
+}
+.menu>ul>li>ul>li>a{
+    color: orangered;
+    text-decoration: none;
+}
+.menu>ul>li:hover>ul{
+    display: block;
+}
+.text{
+    width: 20px;
+    height: 20px;
+    border:none;
+    background:#ffffff;
+    padding-left: 3px;
+    margin-top: 5px;
+}
+.
+.container{
+
+    width: 60%;
+    height: 50%;
+    align-self: none;
+}
+.boxdanhmuc{
+    float:center;
+    width:30%;
+}
+.boxtieude{
+    padding: 10xp;
+    background-color: #eee;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 1px #ccc solid;
+}
+.boxnoidung{
+    border-left: #ccc solid;
+    border-right: #ccc solid;
+    border-bottom: #ccc solid;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    min-height: 300px;
+}
+.dangnhapkhac{
+    align-items: center;
+    width:25%;
+}
